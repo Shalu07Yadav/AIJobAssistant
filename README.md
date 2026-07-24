@@ -1,4 +1,4 @@
-# 🚀 AI Job Assistant
+#  AI Job Assistant
 
 An AI-powered career preparation platform that helps job seekers improve their resumes, analyze ATS compatibility, generate personalized interview questions, and receive AI-driven resume optimization suggestions.
 
@@ -6,9 +6,9 @@ Built using **React**, **Spring Boot**, **PostgreSQL**, and **Google Gemini AI**
 
 ---
 
-## ✨ Features
+##  Features
 
-### 📄 Resume Upload
+###  Resume Upload
 - Upload resume in PDF format
 - Resume stored securely
 - Extracts resume text using Apache PDFBox
@@ -16,7 +16,7 @@ Built using **React**, **Spring Boot**, **PostgreSQL**, and **Google Gemini AI**
 
 ---
 
-### 📊 ATS Resume Analyzer
+###  ATS Resume Analyzer
 Compare your resume against any Job Description.
 
 Features:
@@ -28,7 +28,7 @@ Features:
 
 ---
 
-### 🤖 AI Interview Question Generator
+###  AI Interview Question Generator
 
 Generate personalized interview questions based on your uploaded resume.
 
@@ -46,7 +46,7 @@ Powered by **Google Gemini AI**.
 
 ---
 
-### ✨ AI Resume Optimizer
+###  AI Resume Optimizer
 
 Receive AI-powered suggestions to improve your resume.
 
@@ -62,7 +62,7 @@ Suggestions include:
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
@@ -84,7 +84,7 @@ Suggestions include:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 AIJobAssistant
@@ -178,55 +178,6 @@ POST /api/resumes/upload
 
 ---
 
-### ATS Analysis
-
-```
-POST /analyze
-```
-
-Request
-
-```json
-{
-  "resumeId": 1,
-  "jobDescription": "Java, Spring Boot, AWS..."
-}
-```
-
----
-
-### Interview Question Generator
-
-```
-POST /api/interview/generate
-```
-
-Request
-
-```json
-{
-  "resumeId": 1
-}
-```
-
----
-
-### Resume Optimizer
-
-```
-POST /api/optimizer/optimize
-```
-
-Request
-
-```json
-{
-  "resumeId": 1,
-  "jobDescription": "Java Spring Boot Developer..."
-}
-```
-
----
 
 ## 🎯 Future Improvements
 
@@ -243,39 +194,13 @@ Request
 
 ---
 
-## 📸 Screenshots
 
-Add screenshots of:
 
-- Home Page
-- Dashboard
-- ATS Analyzer
-- Interview Generator
-- Resume Optimizer
-
----
-
-## 🌟 Why This Project?
-
-AI Job Assistant combines modern web development with Generative AI to help candidates prepare for software engineering interviews and improve their resumes using intelligent insights.
-
-It demonstrates:
-
-- Full Stack Development
-- REST API Design
-- React + Spring Boot Integration
-- PostgreSQL
-- AI API Integration
-- State Management
-- Responsive UI
-- Clean Architecture
-
----
 
 ## 👩‍💻 Author
 
 **Shalu Yadav**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/Shalu07Yadav
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/shalu-yadav-a8a618229/
