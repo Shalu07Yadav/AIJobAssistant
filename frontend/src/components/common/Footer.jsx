@@ -12,6 +12,8 @@ function Footer() {
 
         </footer>
 
+//         added one line for testing in footer
+
     );
 }
 
