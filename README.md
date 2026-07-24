@@ -110,7 +110,7 @@ AIJobAssistant
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### Clone Repository
 
@@ -168,15 +168,6 @@ http://localhost:5173
 
 ---
 
-## 📌 API Endpoints
-
-### Resume Upload
-
-```
-POST /api/resumes/upload
-```
-
----
 
 
 ## 🎯 Future Improvements
@@ -197,7 +188,7 @@ POST /api/resumes/upload
 
 
 
-## 👩‍💻 Author
+##  Author
 
 **Shalu Yadav**
 
