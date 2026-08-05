@@ -1,0 +1,219 @@
+{
+  "info": {
+    "_postman_id": "f9fb54c9-665a-4cc3-85e9-e27ed23c524e",
+    "name": "AiJob",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49249929"
+  },
+  "item": [
+    {
+      "name": "uploadResume",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "a5966062-db8c-455a-a2ef-0b3198459172",
+              "src": "/E:/Shalu Yadav M.pdf"
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/resumes/upload",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "resumes",
+            "upload"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "MatchedExtractedskillset",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/skills/6",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "skills",
+            "6"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "atsScore",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "TestingGemini",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/ai/test",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "ai",
+            "test"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GenerateInterviewQuestions",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"resumeId\": 6\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/interview/generate",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "interview",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ResumeOptimizer",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"resumeId\": 10\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/optimizer/optimize",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "optimizer",
+            "optimize"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "InterviewStart",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "ContinueInterview",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sessionId\": \"2d1ae138-0090-4ca1-90ed-be1a304df837\",\r\n    \"answer\": \"I deployed on netlify\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/mock-interview/next",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "mock-interview",
+            "next"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "FinishInterview",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sessionId\": \"41d31805-86da-461d-83f9-14a8b5d11e1e\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/mock-interview/finish",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "mock-interview",
+            "finish"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
